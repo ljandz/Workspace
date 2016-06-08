@@ -15,6 +15,7 @@
 		1843C3A11D07F12B00E932E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1843C39F1D07F12B00E932E0 /* LaunchScreen.xib */; };
 		1843C3AD1D07F12B00E932E0 /* JZFreeLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843C3AC1D07F12B00E932E0 /* JZFreeLimitTests.m */; };
 		1843C3B81D07F5A100E932E0 /* JZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843C3B71D07F5A100E932E0 /* JZViewController.m */; };
+		965918D42601E25535047325 /* libPods-JZFreeLimit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E068F980FC497E6431C7AA3 /* libPods-JZFreeLimit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,9 @@
 		1843C3AC1D07F12B00E932E0 /* JZFreeLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZFreeLimitTests.m; sourceTree = "<group>"; };
 		1843C3B61D07F5A100E932E0 /* JZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZViewController.h; sourceTree = "<group>"; };
 		1843C3B71D07F5A100E932E0 /* JZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZViewController.m; sourceTree = "<group>"; };
+		1E068F980FC497E6431C7AA3 /* libPods-JZFreeLimit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JZFreeLimit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A8E71CB3F1E293ED2EF58B /* Pods-JZFreeLimit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFreeLimit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JZFreeLimit/Pods-JZFreeLimit.release.xcconfig"; sourceTree = "<group>"; };
+		95B3932B1CF0313CED5DCD40 /* Pods-JZFreeLimit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZFreeLimit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JZFreeLimit/Pods-JZFreeLimit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965918D42601E25535047325 /* libPods-JZFreeLimit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +74,8 @@
 				1843C38F1D07F12B00E932E0 /* JZFreeLimit */,
 				1843C3A91D07F12B00E932E0 /* JZFreeLimitTests */,
 				1843C38E1D07F12B00E932E0 /* Products */,
+				C0683DE47D381213C9B2FDA2 /* Pods */,
+				8F479E75A9D3AF350CECC332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8F479E75A9D3AF350CECC332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E068F980FC497E6431C7AA3 /* libPods-JZFreeLimit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0683DE47D381213C9B2FDA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B3932B1CF0313CED5DCD40 /* Pods-JZFreeLimit.debug.xcconfig */,
+				92A8E71CB3F1E293ED2EF58B /* Pods-JZFreeLimit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1843C3B01D07F12B00E932E0 /* Build configuration list for PBXNativeTarget "JZFreeLimit" */;
 			buildPhases = (
+				2AB1812231892DC092BCB44F /* [CP] Check Pods Manifest.lock */,
 				1843C3891D07F12A00E932E0 /* Sources */,
 				1843C38A1D07F12A00E932E0 /* Frameworks */,
 				1843C38B1D07F12A00E932E0 /* Resources */,
+				665E983B6B97FB6CBFBCB0AA /* [CP] Embed Pods Frameworks */,
+				1C75366743B110CFE8A84A4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +245,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C75366743B110CFE8A84A4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFreeLimit/Pods-JZFreeLimit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB1812231892DC092BCB44F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		665E983B6B97FB6CBFBCB0AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JZFreeLimit/Pods-JZFreeLimit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1843C3891D07F12A00E932E0 /* Sources */ = {
@@ -353,6 +428,7 @@
 		};
 		1843C3B11D07F12B00E932E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B3932B1CF0313CED5DCD40 /* Pods-JZFreeLimit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JZFreeLimit/Info.plist;
@@ -363,6 +439,7 @@
 		};
 		1843C3B21D07F12B00E932E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A8E71CB3F1E293ED2EF58B /* Pods-JZFreeLimit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JZFreeLimit/Info.plist;
@@ -424,6 +501,7 @@
 				1843C3B21D07F12B00E932E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1843C3B31D07F12B00E932E0 /* Build configuration list for PBXNativeTarget "JZFreeLimitTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +510,7 @@
 				1843C3B51D07F12B00E932E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
