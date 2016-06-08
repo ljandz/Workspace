@@ -14,6 +14,7 @@
 		1843C39E1D07F12B00E932E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1843C39D1D07F12B00E932E0 /* Images.xcassets */; };
 		1843C3A11D07F12B00E932E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1843C39F1D07F12B00E932E0 /* LaunchScreen.xib */; };
 		1843C3AD1D07F12B00E932E0 /* JZFreeLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843C3AC1D07F12B00E932E0 /* JZFreeLimitTests.m */; };
+		1843C3B81D07F5A100E932E0 /* JZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843C3B71D07F5A100E932E0 /* JZViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1843C3A61D07F12B00E932E0 /* JZFreeLimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZFreeLimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1843C3AB1D07F12B00E932E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1843C3AC1D07F12B00E932E0 /* JZFreeLimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZFreeLimitTests.m; sourceTree = "<group>"; };
+		1843C3B61D07F5A100E932E0 /* JZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZViewController.h; sourceTree = "<group>"; };
+		1843C3B71D07F5A100E932E0 /* JZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1843C3951D07F12B00E932E0 /* AppDelegate.m */,
 				1843C3971D07F12B00E932E0 /* ViewController.h */,
 				1843C3981D07F12B00E932E0 /* ViewController.m */,
+				1843C3B61D07F5A100E932E0 /* JZViewController.h */,
+				1843C3B71D07F5A100E932E0 /* JZViewController.m */,
 				1843C39A1D07F12B00E932E0 /* Main.storyboard */,
 				1843C39D1D07F12B00E932E0 /* Images.xcassets */,
 				1843C39F1D07F12B00E932E0 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843C3B81D07F5A100E932E0 /* JZViewController.m in Sources */,
 				1843C3991D07F12B00E932E0 /* ViewController.m in Sources */,
 				1843C3961D07F12B00E932E0 /* AppDelegate.m in Sources */,
 				1843C3931D07F12B00E932E0 /* main.m in Sources */,
